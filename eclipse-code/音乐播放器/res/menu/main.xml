@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.play.MainActivity" >
+
+   <!--   <item
+        android:id="@+id/music_setting"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="always|withText"
+        android:title="@string/action_settings"       
+        android:orderInCategory="100"
+        android:checkable="true"
+        android:onClick="showPopup"
+        android:visible="true">
+       
+        <menu>            
+                <item
+                    android:id="@+id/mi_tone"
+                    android:title="@string/menuItem1">
+                </item>
+                <item
+                    android:id="@+id/mi_two"
+                    android:title="@string/menuItem2">
+                </item>
+                <item
+                    android:id="@+id/mi_three"
+                    android:title="@string/menuItem3">
+                </item>       
+        </menu>
+         
+    </item>-->
+
+</menu>

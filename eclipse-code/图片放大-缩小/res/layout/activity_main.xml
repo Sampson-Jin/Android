@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_big"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="变大"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/bt_smail"
+            android:layout_width="0dp"
+            android:text="变小"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:id="@+id/iv_tu"
+	    android:src="@drawable/jin"
+	    android:layout_weight="1"/>
+	
+</LinearLayout>

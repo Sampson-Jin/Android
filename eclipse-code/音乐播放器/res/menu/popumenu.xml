@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+    <item
+        android:id="@+id/mi_tone"
+        android:title="@string/menuItem1">
+    </item>
+    <item
+        android:id="@+id/mi_two"
+        android:title="@string/menuItem2">
+    </item>
+    <item
+        android:id="@+id/mi_three"
+        android:title="@string/menuItem3">
+    </item>
+    <item
+        android:id="@+id/mi_four"
+        android:title="@string/menuItem4">
+    </item>
+</menu>

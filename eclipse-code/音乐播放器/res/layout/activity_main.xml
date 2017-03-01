@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="#303538" >
+
+    <Button
+        android:id="@+id/button_showPopup"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#303538"
+        android:onClick="showPopup"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" >
+    </Button>
+
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true" >
+
+            <ListView
+                android:id="@+id/lv_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                android:text="@string/hello_world" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_s"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一首" />
+
+        <Button
+            android:id="@+id/bt_p"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="播放" />
+
+        <Button
+            android:id="@+id/bt_x"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一首" />
+    </LinearLayout>
+
+</LinearLayout>
